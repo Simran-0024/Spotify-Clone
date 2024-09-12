@@ -225,3 +225,69 @@
 
 
 }
+
+.box-playlist{
+    height: 360px;
+    width: 280px;
+    padding: 0px 8px 0px;
+    background-color:#141313;
+    display: flex;
+
+
+}
+.play-sec{
+    height: 132px;
+    width: 270px;
+    margin: 8px 0px;
+    padding:16px 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inner-playlist{
+    height: 48px;
+    width: 179px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.p1{
+    height: 18.5px;
+    width: 179px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color:#1f1f1f ;
+
+
+
+}
+.p2{
+    height: 18.5px;
+    width: 179px;
+    font-size: 0.80rem;
+    background-color:#1f1f1f;
+
+}
+.create-button{
+    height: 32px;
+    width: 118px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.butt-click{
+    font-size: 13px;
+    background-color: #ffffff;
+    font-weight: bold;
+
+
+}
