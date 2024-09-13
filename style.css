@@ -4,6 +4,7 @@
     border: border-box;
     box-sizing: border-box;
     background-color:#000000;
+    
 }
 .navbar{
     display: flex;
@@ -145,19 +146,23 @@
 .log-sign{
     display: flex;
 }
+.full-panel{
+    display: flex;
+    flex-direction: row;
+
+}
 .library{
     height:600px;
     width: 280px;
     background-color:#141313;
     border-radius: 9px;
     margin-top: 9px;
-    ::-webkit-scrollbar {
-        width: 10px;
-      }
+   
     
 
 
 }
+
 .outer-most{
     height: 76px;
     width: 280px;
@@ -180,6 +185,7 @@
 }
 .lib{
     color: #B3B3B3;
+    
     border-style: none;
     height:40px;
     width: 142px;
@@ -208,7 +214,6 @@
 }
 .plus{
     background-color:#141313;
-    
     color: #B3B3B3;
     border-style: none;
     font-size: 20px;
@@ -376,8 +381,6 @@
     margin-top:20px;
     
 
-
-
 }
 .eng-butt{
     width:234px;
@@ -404,4 +407,422 @@
     color:#ffffff;
     margin-right:5px;
 
+}
+.sec-box{
+    width: 970px;
+    height:1200px;
+    background-color:#1f1f1f;
+    margin-left: 10px;
+    margin-top: 9px;
+    padding-left:16px;
+    padding-right:16px;
+    justify-content: center;
+
+        
+
+}
+.pop-artist{  /* */
+    height: 60px;
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1f1f1f;
+
+}
+.pop-text{ /*  for h2*/
+    height: 42px;
+    width: 165px;
+    color:white;
+    background-color:#1f1f1f;
+    align-content: flex-end;
+    margin-left: 5px;
+}
+.link-pop{ /* link for popular artists*/
+    height: 29px;
+    width: 165px;  
+    font-weight: bold;
+    background-color:#1f1f1f;
+    font-size:24px ;
+}
+.show-all{
+    height:60px;
+    width: 62px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.show-link{
+    width: 54px;
+    background-color: transparent;
+    height: 22px;
+    display: flex;
+    align-self: flex-end;
+    margin: 2px 8px 8px 0px;
+}
+.show{ /* span foer show all*/
+    width: 54px;
+    height: 19px;
+    font-size: 14px;
+    color: #B3B3B3;
+    background-color: transparent;
+    font-weight: bolder;
+
+}
+.pritam{
+    height: 235px;
+    width: 185px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: column;
+
+
+}
+.p-image{
+    height: 170px;
+    width: 170px;
+    background-image: url("pri.jpeg");
+    background-size: cover;
+    margin: 10px;
+    
+    border-radius: 50%;
+
+}
+.arijit{
+    height: 235px;
+    width: 185px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: column;
+
+
+}
+.a-image{
+    
+    margin: 10px;
+    height: 170px;
+    width: 170px;
+    background-image: url("ARIJIT.jpeg");
+    background-size:cover;
+
+    border-radius: 50%;
+}
+.images{
+    display: flex;
+    width: 940px;
+    height:235px;
+    flex-wrap: wrap;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.ar-image{
+    margin: 10px;
+    height: 170px;
+    width: 170px;
+    background-image: url("AR REHMA.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.ar-rehman{
+    height: 235px;
+    width: 185px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: column;
+
+
+}
+.sj-image{
+    margin: 10px;
+    height: 170px;
+    width: 170px;
+    background-image: url("sachin -jigar.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.sc-ji{
+    height: 235px;
+    width: 185px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: column;
+
+
+}
+.anirudh{
+    height: 235px;
+    width: 185px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: column;
+
+
+}
+.ani-image{
+    margin: 10px;
+    height: 170px;
+    width: 170px;
+    background-image: url("anirudh.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    
+
+}
+.i{
+    font-size: 16px;
+    background-color: transparent;
+    color:white ;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+.a{
+    font-size: 13px;
+    background-color: transparent;
+    color:#B3B3B3;
+    margin-left: 10px;
+
+}
+.images-album{
+    height: 250px;
+    width: 940px;
+    background-color: transparent;
+    display: flex;
+
+}
+.ashiqi2{
+
+    height: 250px;
+    width: 180px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+}
+.ashi-image{
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    align-self: flex-start;
+    background-image: url("ashiqi.jpg");
+    background-size: cover;
+    background-color: transparent;
+
+}
+.loveHostel{
+
+    height: 250px;
+    width: 180px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+}
+.love-image{
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    align-self: flex-start;
+    background-image: url("midight.jpeg");
+    background-size: cover;
+    background-color: transparent;
+
+}
+.makingMemory{
+
+    height: 250px;
+    width: 180px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+}
+.mem-image{
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    align-self: flex-start;
+    background-image: url("karan.jpg");
+    background-size: cover;
+    background-color: transparent;
+
+}
+.jawani{
+
+    height: 250px;
+    width: 180px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+}
+.jawani-image{
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    align-self: flex-start;
+    background-image: url("yeh jawani hai diwani.jpg");
+    background-size: cover;
+    background-color: transparent;
+
+}
+.aaj-raat{
+
+    height: 250px;
+    width: 180px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+}
+.aaj-image{
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    align-self: flex-start;
+    background-image: url("aaj-raat.jpeg");
+    background-size: cover;
+    background-color: transparent;
+
+}
+.links{
+    
+
+    font-style: none;
+    color: #B3B3B3;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+
+
+}
+.link-box{
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+
+
+}
+.footer{
+    padding: 8px 32px 40px;
+    height: 418px;
+    width: 940px;
+}
+.footer-inner{
+    height: 280px;
+    width: 940px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:32px 0px 0px;
+
+
+}
+.Com{
+
+    margin:0px 24px 32px 0px;
+    height:246px ;
+    width: 150px;
+    background-color: transparent;
+    
+
+    
+}
+.li{
+    list-style: none;
+    list-style-type: none;
+    line-height: 30px;
+    background-color: transparent;
+    color:#B3B3B3;
+    text-decoration: none;
+    font-style: none;
+
+}
+p{
+    color: White;
+    font-size:16px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.social-links{
+    height: 246px;
+    width: 170px;
+    margin:0px 0px 40px;
+    display: flex;
+    background-color: transparent;
+
+
+}
+.soc{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+.soc-butt{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    background-color: transparent;
+   
+}
+.m{
+    background-color: transparent;
+
+}
+.copyright{
+    font-size: 14px;
+    color: #B3B3B3;
+}
+.copy{
+    font-size: 14px;
+
+    height: 35px;
+    width: 940px;
+    padding-top:16px;
+}
+.para-copy{
+    font-size: 14px;
+    text-decoration: none;
+    font-style: none;
+
+    height: 19px;
+    width:116px;
 }
